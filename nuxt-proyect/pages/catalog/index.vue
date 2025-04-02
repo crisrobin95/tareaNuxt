@@ -1,3 +1,12 @@
+<script setup lang="ts">
+   
+</script>
+
 <template>
-    <h1>Este es catalog</h1>
+    <NuxtLayout name="catalog">
+        hola
+    </NuxtLayout>
 </template>
+
+
+    
