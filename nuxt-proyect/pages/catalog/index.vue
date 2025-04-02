@@ -1,11 +1,11 @@
 <script setup lang="ts">
-   
+   definePageMeta({
+    layout: 'catalog',
+   })
 </script>
 
 <template>
-    <NuxtLayout name="catalog">
-        hola
-    </NuxtLayout>
+    
 </template>
 
 

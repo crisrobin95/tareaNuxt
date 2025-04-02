@@ -1,5 +1,3 @@
 <template>
-   <NuxtLayout>
-    
-   </NuxtLayout>
+    <NuxtLink to="/seriesBonitas">Series Bonitas</NuxtLink>
 </template>

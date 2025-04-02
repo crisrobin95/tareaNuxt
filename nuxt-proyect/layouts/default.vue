@@ -2,12 +2,13 @@
     <div>
         <nav>
             <ul>
-                <li>Home</li>
-                <li>Catalogo</li>
+                <li><NuxtLink to="/">Home</NuxtLink></li>
+                <li><NuxtLink to="/catalog">Catálogo</NuxtLink></li>
             </ul>
         </nav>
         <main>
-            <h2>Menú</h2> 
+            <h2>Menú</h2>
+            <slot></slot>
         </main>
         <footer>
 

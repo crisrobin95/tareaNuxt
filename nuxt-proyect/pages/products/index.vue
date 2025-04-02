@@ -1,17 +1,13 @@
+<template>
+    <div>
 
-<script setup lang="ts">
-import { useRouter } from 'nuxt/app';
-import { onMounted } from 'vue';
+    </div>
+</template>
 
-const router = useRouter();
+<script setup>
 
-onMounted(() => {
-  router.push('/');
-});
 </script>
 
-<template>
-  <div>
-    <p>Redirigiendo a la página de inicio...</p>
-  </div>
-</template>
+<style lang="scss" scoped>
+
+</style>
